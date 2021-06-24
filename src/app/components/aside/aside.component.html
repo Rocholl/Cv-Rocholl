@@ -1,0 +1,24 @@
+
+<div class="container" style="text-align:center;">
+  <img src="../../../assets/img/cv.jpeg" class="img-responsive" style="border-radius: 50%;" width="70%" alt="">
+  <br>
+  <br>
+
+  <div id="name">Carlos Rocholl <br>
+
+
+    <h4 >Curriculum Vitae</h4>
+  </div>
+
+
+</div>
+<div  id="button-container"   style="margin: 0 auto;">
+ <div *ngFor="let fruit of fruits" >
+    <button class="btn-{{fruit.ico}} bnt-redes list-group-item"   ><nb-icon style="width:12%;" icon="{{fruit.ico}}"></nb-icon>     {{fruit.name}}</button>
+
+  </div>
+
+</div>
+<div id="sidebar-footer">
+<p>Designed by Carlos Rocholl</p>
+</div>

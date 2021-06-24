@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "loginmodule-f55e7": {
+      "hosting": {
+        "rocholl-page": [
+          "loginmodule-f55e7"
+        ]
+      }
+    }
+  }
+}

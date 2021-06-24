@@ -1,0 +1,96 @@
+mat-toolbar {
+  background: rgba(255, 255, 255, 0.7);
+  color: white;
+}
+
+mat-sidenav {
+
+
+  width:20%;
+
+  background-color:  transparent;
+  color: white;
+
+  text-align: center;
+}
+
+.content1 {
+  height:80%;
+
+
+  width: auto;
+
+  font-size: 2rem;
+  color: lightgray;
+  background-color: rgba(255, 255, 255, 0.8);
+
+}
+
+mat-sidenav-container {
+  height: calc(100vh - 65px);
+  background-color: rgba(255, 255, 255, 0);
+
+}
+
+.menu-button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 1rem;
+
+  mat-icon {
+      margin-right: 8px;
+  }
+}
+
+#openSide{
+  margin: 0 auto;
+}
+.designation {
+  margin-top: 2px;
+  font-size: 0.7rem;
+  color: lightgrey;
+}
+#footer{
+  position:fixed;
+  top: 40%;
+  left: 0%;
+text-align: center;
+z-index: 50;
+}
+mat-divider {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+//media
+@media screen and (max-width:800px) {
+  mat-sidenav {
+
+    width:100%;
+
+    color: white;
+
+    text-align: center;
+  }
+  .content1 {
+    height:80%;
+
+
+    width: 100%;
+
+    font-size: 2rem;
+    color: lightgray;
+    background-color: rgba(255, 255, 255, 0.7);
+
+  }
+  #body{
+    width: 100%;
+    z-index: 1000;
+  }
+}
+#nav-container{
+  height:auto;
+  justify-content:center;
+}
