@@ -13,7 +13,7 @@ import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [LoginComponent],
-  imports: [CommonModule,HttpClientModule,ReactiveFormsModule, [NgbPaginationModule, NgbAlertModule],AngularFireModule.initializeApp(environment.firebase),AngularFireAuthModule],
+  imports: [CommonModule,HttpClientModule,ReactiveFormsModule, [NgbPaginationModule, NgbAlertModule]],
 
   exports: [LoginComponent],
 })
