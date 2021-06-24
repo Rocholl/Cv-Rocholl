@@ -18,6 +18,8 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatListModule} from '@angular/material/list';
 import { TecnologiasComponent } from './pages/tecnologias/tecnologias.component';
 import { HammerModule  } from '@angular/platform-browser';
+import { DatosComponent } from './pages/datos/datos.component';
+import { FormacionComponent } from './pages/formacion/formacion.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { HammerModule  } from '@angular/platform-browser';
     NavComponent,
     AsideComponent,
     HomeComponent,
-    TecnologiasComponent
+    TecnologiasComponent,
+    DatosComponent,
+    FormacionComponent
   ],
   imports: [
     BrowserModule,
