@@ -4,10 +4,9 @@ mat-toolbar {
 }
 
 mat-sidenav {
-
+  height: auto;
 
   width:20%;
-
   background-color:  transparent;
   color: white;
 
@@ -15,7 +14,7 @@ mat-sidenav {
 }
 
 .content1 {
-  height:auto;
+  height:auto !important;
 
   width: auto;
 
@@ -26,7 +25,8 @@ mat-sidenav {
 }
 
 mat-sidenav-container {
-  height: calc(100vh - 65px);
+    min-height: 70%;
+    height: calc(100vh - 65px);
   background-color: rgba(255, 255, 255, 0);
 
 }
@@ -74,7 +74,7 @@ mat-divider {
     text-align: center;
   }
   .content1 {
-    height:80%;
+    height:100%;
 
 
     width: 100%;
@@ -87,9 +87,15 @@ mat-divider {
   #body{
     width: 100%;
     z-index: 1000;
+    height: auto;
+
   }
 }
 #nav-container{
   height:auto;
+
   justify-content:center;
+}
+#sidebar-container{
+  height: 100%;
 }

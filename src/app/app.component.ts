@@ -27,5 +27,8 @@ console.log(evt);
 console.log("evt");
 this.sidenav.open();
 }
+onSwipeLeft(evt:any){
+  this.sidenav.close();
+}
 }
 

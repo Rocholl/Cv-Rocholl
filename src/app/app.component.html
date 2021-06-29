@@ -1,4 +1,4 @@
-<div (swiperight)="onSwipeRight($event)" id="body">
+<div (panright)="onSwipeRight($event)"  (panleft)="onSwipeLeft($event)"id="body">
 
 
 <mat-sidenav-container  id="sidebar-container" style="position: left;">
@@ -19,7 +19,7 @@
 </mat-sidenav-container>
 
 </div>
-<div id="footer">   <button class="btn " id="openSide"  *ngIf="sidenav.mode === 'over'" (click)="sidenav.toggle()">
+<div id="footer">   <button class="btn " id="openSide"   *ngIf="sidenav.mode === 'over'" (click)="sidenav.toggle()">
   <mat-icon *ngIf="!sidenav.opened" style="color:white;">
     arrow_back
   </mat-icon>
