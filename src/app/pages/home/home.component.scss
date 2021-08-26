@@ -1,8 +1,11 @@
 #home-body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 80%;
   margin: 0 auto;
   padding-bottom: 50px;
-
+  height: 600px;
 }
 #home-title{
 
@@ -17,5 +20,10 @@
 
 }
 .home-text{
+  
   font-size: 20px;
+}
+
+#center{
+  top: 50%;
 }
